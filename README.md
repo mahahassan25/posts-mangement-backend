@@ -29,6 +29,22 @@ This is a simple front-end project that includes two separate login systems: one
 
  **run migration**
 - php artisan migrate
-- 
- **start server**
+
+**Set Up Environment File**
+   ```bash
+  cp .env.example .env
+```
+
+**Generate App Key**
+  ```bash
+ php artisan key:generate
+```
+- **seeder**
+-php artisan db:seed
+
+ **run migration**
+ ```bash
+ php artisan migrate
+```
+**start server**
  - php artisan ser
